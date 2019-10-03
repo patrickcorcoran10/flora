@@ -1,0 +1,12 @@
+{
+  "name": "florapharmica",
+  "version": "1.0.0",
+  "description": "Website Version for the Florapharmica Site and Backend Business Functions",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "pc",
+  "license": "ISC"
+}
