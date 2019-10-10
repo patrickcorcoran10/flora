@@ -4,7 +4,7 @@ import Home from '../../pages/Home/Home.js';
 import Story from '../../pages/Story/Story.js';
 import Products from '../../pages/Products/Products.js';
 import Contact from '../../pages/Contact/Contact.js';
-import Footer from '../Footer/Footer';
+import Footer from '../Footer/Footer.js';
 import NavBar from '../NavBar/Navbar.js';
 
 export default class Parent extends Component {

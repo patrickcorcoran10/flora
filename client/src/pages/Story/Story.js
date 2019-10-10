@@ -16,7 +16,9 @@ export default class Story extends Component {
                         <p>The development of Lavender nites® could not have been completed without the support of the many nurses we work with who are trained as CCAP’s. They provided valuable feedback regarding scent, texture and the feel of the cream as it was applied to the body. We revised and tested several formulas and the finished product was compounded and distributed by the pharmacy department. Our original lavender cream was produced in bulk and distributed in 50gm containers to nursing units. Over the course of several years we found there was a need for a more convenient method of delivery and began to focus on making a single dose application.</p>
                         <p>We found a manufacturer that was focused on quality and had high standards. Here we are today. Lavender nites® has been 3rd party tested and is delivered in a single 4gm dose package, easy for caregivers, great for patients. </p>
                         <br/>
-                        <button>Contact Us</button>
+                        <div className='contact-button'>
+                            <p>Contact Us</p>
+                        </div>
                     </div>
                     <div className='col-md-1'>
                     </div>

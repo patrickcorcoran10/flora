@@ -77,7 +77,9 @@ export default class Products extends Component {
                         <p>6650 W. State St. Suite 138</p>
                         <p>Wauwatosa, WI, 53213</p>
                         <br/>
-                        <button>Experience Our Product</button>
+                        <div className='contact-button'>
+                            <p>Experience Our Product</p>
+                        </div>
                     </div>
                     <div className='col-md-1'>
                         
