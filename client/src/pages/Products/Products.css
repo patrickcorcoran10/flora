@@ -3,9 +3,14 @@
     color: white;
     margin-left: 350px;
     margin-right: 350px;
+    text-align: center;
 }
 
 .contact-button:hover {
     background-color: #252832;
     cursor: pointer
+}
+ul, p, h5, h6 {
+    text-align: left;
+    font-family: 'Open Sans', sans-serif;
 }

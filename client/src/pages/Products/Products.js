@@ -1,4 +1,6 @@
 import React, { Component } from 'react'
+import './Products.css';
+import ProductImage from '../../assets/lavender-nites-product.jpeg';
 
 export default class Products extends Component {
     render() {
@@ -27,7 +29,7 @@ export default class Products extends Component {
                         </ul>
                     </div>
                     <div className='col-md-5'>
-                        <p>product image</p>
+                        <img src={ProductImage} alt=''/>
                     </div>
                     <div className='col-md-1'>
                     </div>

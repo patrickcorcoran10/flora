@@ -10,12 +10,13 @@ export default class Navbar extends Component {
     render() {
         return (
             <div className='container'>
+            <br/>
                 <div className='row'>
                     <div className='col-md-12'>
                         <Link to='/'>
                             <img src={Image} height="200" width="200" alt='navbar-pic'/>
                         </Link>
-                        <h4>NATURAL SOLUTIONS FOR HOME & HEALTH CARE</h4>                        
+                        <h2>NATURAL SOLUTIONS FOR HOME & HEALTH CARE</h2>                        
                     </div>
                 </div>
                 <div className='row'>

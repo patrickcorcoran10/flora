@@ -41,8 +41,20 @@
     cursor: pointer
 }
 
-h4 {
+h2 {
     font-family: 'poiret one';
+}
+
+h4 {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    vertical-align: middle;
+    text-shadow: 0 1px #2d2130
+    /* line-height: 20px; */
+    /* padding: 25px 15px 24px; */ 
 }
 
 /* .nav-link {
