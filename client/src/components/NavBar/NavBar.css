@@ -1,13 +1,50 @@
-#nav-buttons {
+#nav-buttons-home {
     background-color: #9870A3;
     color: white;
-    vertical-align: middle;
+    vertical-align: center;
+}
+#nav-buttons-home:hover {
+    background-color: #252832;
+    cursor: pointer
+}
+
+#nav-buttons-story {
+    background-color: #9870A3;
+    color: white;
+    vertical-align: center;
+}
+
+#nav-buttons-story:hover {
+    background-color: #252832;
+    cursor: pointer
+}
+
+#nav-buttons-contact {
+    background-color: #9870A3;
+    color: white;
+    vertical-align: center;
+}
+
+#nav-buttons-contact:hover {
+    background-color: #252832;
+    cursor: pointer
+}
+
+#nav-buttons-products {
+    background-color: #9870A3;
+    color: white;
+    vertical-align: center;
+}
+
+#nav-buttons-products:hover {
+    background-color: #252832;
+    cursor: pointer
 }
 
 h4 {
     font-family: 'poiret one';
 }
 
-.nav-link {
+/* .nav-link {
     color: white;
-}
+} */

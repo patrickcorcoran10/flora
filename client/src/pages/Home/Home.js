@@ -3,6 +3,7 @@ import './Home.css';
 import Image1 from '../../assets/home1.jpeg';
 import Image2 from '../../assets/home2.jpeg';
 import Image3 from '../../assets/home3.jpeg';
+import BackgroundImage from '../../assets/lavendar-bg.jpeg';
 
 import {
     Carousel,
@@ -29,6 +30,17 @@ import {
       caption: ''
     }
   ];
+
+  const sectionStyle = {
+    backgroundPosition: 'center',
+    backgroundSize: 'cover',
+    backgroundRepeat: 'no-repeat',
+    backgroundImage: "url(" + { BackgroundImage } + ")"
+  };
+
+  // const buttonStyle = {
+  //   backgroundColor: ''
+  // }
 export default class Home extends Component {
     constructor(props) {
         super(props);
@@ -95,12 +107,14 @@ export default class Home extends Component {
                         <CarouselControl direction="next" directionText="Next" onClickHandler={this.next} />
                     </Carousel>
                     <br/>
+                    <div className='body' style={sectionStyle}>
                     <h5 id='text'>WELCOME TO FLORA PHARMICA®!</h5>
                     <br/>
                     <p id='text'><strong>Lavender nites®</strong> is a unique product created to enhance relaxation and rest for patients in hospitals and clinics. Relaxation is achieved by gently applying <strong>Lavender nites®</strong> scented cream to the chest, back, neck, hands or feet by a caregiver. The senses are soothed through the power of touch, the scent and relaxing effect of lavender and the sight of the compassionate caregiver. The lavender cream can be self-applied and is appropriate for use by anyone who enjoys the scent of lavender and its relaxing effect. Apply before bedtime or anytime a restful and calm state is desired.</p>
                     <br/>
                     <div className='contact-button'>
                       <p>Contact Us</p>
+                    </div>
                     </div>
                     {/* <button>Contact Us</button> */}
                   </div>

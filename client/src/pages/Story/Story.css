@@ -2,6 +2,14 @@
     text-align: left;
 }
 
-/* #contact-button {
-    align-items: center;
-} */
+.contact-button {
+    background: #9870A3;
+    color: white;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.contact-button:hover {
+    background-color: #252832;
+    cursor: pointer
+}
