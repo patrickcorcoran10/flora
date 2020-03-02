@@ -1,5 +1,9 @@
 #footer {
-    background-color: #9870A3;
-    color: white;
-    /* position: fixed; */
+  background-color: #9870a3;
+  color: white;
+  /* position: fixed; */
+}
+
+p {
+  text-align: center;
 }
